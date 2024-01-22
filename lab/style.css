@@ -1,0 +1,127 @@
+
+/* Style paragraphs */
+p {
+    color: darkblue;
+    font-size: 25px;
+}
+
+/* Style h1 headers */
+h1 {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style h2 headers */
+h2 {
+    font-size: 35px;
+    color: indianred;
+}
+
+/* Style body */
+body {
+    background-color: coral;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+/* Style list items */
+li {
+    list-style-type: square;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* Style links */
+a {
+    background-color: deepskyblue;
+    color: red;
+    text-decoration: none;
+}
+
+/* Style unordered lists */
+ul {
+    background-color: yellow;
+}
+
+/* Style li with most-favorite id */
+#most-favorite-food {
+    background-color: darkcyan;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+/* Style all elements with second-favorite class */
+.second-favorite {
+    background-color: greenyellow;
+}
+
+/* Style element with page-title id */
+#page-title {
+    text-shadow: 4px 4px brown;
+    color: forestgreen;
+}
+
+/* Style div elements with favorite-section class */
+.favorite-section {
+    background-color: lightgoldenrodyellow;
+    border: 5px black dashed;
+    margin: 10px;
+    padding: 15px;
+}
+
+/* Style span element with favorite-music-name id */
+#favorite-music-name {
+    background-color: fuchsia;
+    text-shadow: 3px 2px mediumpurple;
+    font-weight: bold;
+    color: goldenrod;
+}
+
+/* Style table */
+table {
+    border: 2px solid crimson;
+    background-color: greenyellow;
+    color: darkgreen;
+    width: 100%;
+    height: 200px;
+}
+
+th {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+td {
+    background-color: green;
+    color: gold;
+    font-size: 30px;
+}
+
+/* Style h2 elements with section-header class */
+.section-header {
+    font-family: Georgia, serif;
+    color: darkolivegreen;
+}
+
+/* Style span element with favorite-tv-series-title id */
+#favorite-tv-series-title {
+    font-style: italic;
+    color: lawngreen;
+}
+
+/* Style image elements with favorite-image class */
+.favorite-image {
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4px;
+}
+
+/* Style paragraphs with cat-name class */
+.cat-name {
+    text-align: center;
+    color: mediumspringgreen;
+    background-color: darkblue;
+}

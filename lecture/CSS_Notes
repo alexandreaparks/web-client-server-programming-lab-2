@@ -1,0 +1,46 @@
+CSS - Cascading Style Sheets
+
+- Used to modify the appearance of a page
+- CSS can select particular elements and apply styles to them
+- CSS can select some components and apply a style to them
+    - select all elements with a certain class, ID, the last element
+    of a type on page, elements by context, etc.
+
+- The CSS stylesheet needs to be linked to the HTML page that it is styling
+<link rel="stylesheet" type="text/css" href="style.css">
+
+CSS Syntax includes a:
+- Selector - points to the HTML element you want to style
+- Declaration Block - contains one or more declarations separated by semicolons
+- Each declaration includes a CSS property name and value, separated by a colon
+- Declarations always ends with a semicolon, and declaration blocks are always
+surrounded by curly braces
+
+h1 {
+    color: deeppink;
+    font-style: italic;
+}
+
+/* This is a comment */
+
+- Add class and id attributes to select elements and style them
+    - id is used to identify one unique element
+    - class is used to give elements a particular type
+    - #id-value to select by id
+    - .class-name to select by class
+    - can use both class and id attributes for an element
+
+
+- Add div and span elements to group or divide the page
+    - div are dividers/boxes used to organize page
+        - block tags
+        - one div is the width of the page
+    - span are inline elements used within paragraphs
+        - inline tags
+        - span element will directly follow the preceding element and will
+        be directly followed by the next element
+
+- F12 to open dev tools - also right-click > inspect
+
+- Styles selected by id override selecting by class
+- Styles selected by class override selecting by tag name
